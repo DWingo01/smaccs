@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>Cat & Hat.com</title>
+<link rel="stylesheet" type="text/css" href="css/html5.css">
+</head>
+
+<body style="background-image:url(images/background.jpg)">
+
+<div id="wrapper">
+
+<header>
+<img src="images/BANNER.jpg" alt="banner">
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="catalogue.html">Clothes</a></li>
+<li><a href="about.html">Mission</a></li>
+</ul>
+
+</nav>
+
+<article>
+<img src="images/hipster.jpg" id="adBanner" alt="Ad Banner">
+
+<div id="featurediv">
+<div class="feature" style="background-image:url(images/1410100-047.10048.a.detail.jpg)">
+<h3>$36.99</h3>
+</div><!--end of feature-->
+
+<div class="feature" style="background-image:url(images/shirt2.jpg)">
+<h3>$32.99</h3>
+</div><!--end of feature-->
+
+<div class="feature" style="background-image:url(images/shirt3.jpg)">
+<h3>$41.99</h3>
+
+</div><!--end of feature-->
+
+<div class="feature" style="background-image:url(images/shirt4.jpg)">
+<h3>$33.99</h3>
+</div><!--end of feature-->
+
+<div class="feature" style="background-image:url(images/shirt5.jpg)">
+<h3>$32.99</h3>
+</div><!--end of feature-->
+
+<div class="feature" style="background-image:url(images/shirt6.jpg)">
+<h3>$25.99</h3>
+
+</div>
+
+</article>
+
+<script type="text/javascript">
+
+window.onload = rotate;
+var thisAd = 0; function rotate(){
+	var adImages = new
+	Array("images/niteline.jpg","images/summer.jpg", "images/hipster.jpg");
+	thisAd++;
+	if(thisAd == adImages.length){
+		thisAd=0;
+	}
+	document.getElementById("adBanner").src=adImages[thisAd];
+	setTimeout(rotate, 1 * 5000);
+}
+</script>
+
+<footer style="background-image:url(images/background.jpg)">
+<ul>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Careers</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Support Our Causes</a></li>
+</ul>
+
+<div id="social">
+<ul>
+<li><a href="www.facebook.com"><img src="images/32-facebook.png" alt="facebook"></a></li>
+<li><a href="www.plus.google.com"><img src="images/32-googleplus.png" alt="google plus"></a></li>
+<li><a href="www.twitter.com"><img src="images/32-twitter.png" alt="twitter"></a></li>
+<li><a href="www.instagram.com"><img src="images/32-instagram.png" alt="instagram"></a></li>
+</ul>
+</div>
+
+<p>
+&copy;2014. For educational purposes only.
+</p>
+</footer>
+
+</div>
+
+</body>
+
+</html>
