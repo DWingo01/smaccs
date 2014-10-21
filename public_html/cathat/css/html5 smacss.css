@@ -68,6 +68,31 @@ a:active{
 	/*border:#F76B6D 1px solid;*/
 }
 
+.footer-paragraph{
+	color:#003;
+	float:left;
+	font-family:Verdana, Helvetica, sans-serif;
+	padding-left:10px;
+	padding-top:5px;
+	padding-right:10px;
+}
+
+.footernav .footer-links-holder{
+	padding-left:10px;
+	padding-top:10px;
+	list-style-type:none;
+}
+
+.footer .footer-link-holder{
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-top:5px;
+	padding-right:10px;
+	display:block;
+	float:left;
+}
+
+
 /*MODULES*/
 .topnav{
 	width:960px;
@@ -123,30 +148,6 @@ h3{
 	padding-top:80px;
 	color:#003;
 	font-weight:normal;
-}
-
-.footer-paragraph{
-	color:#003;
-	float:left;
-	font-family:Verdana, Helvetica, sans-serif;
-	padding-left:10px;
-	padding-top:5px;
-	padding-right:10px;
-}
-
-.footernav .footer-links-holder{
-	padding-left:10px;
-	padding-top:10px;
-	list-style-type:none;
-}
-
-.footer .footer-link-holder{
-	padding-bottom:5px;
-	padding-left:5px;
-	padding-top:5px;
-	padding-right:10px;
-	display:block;
-	float:left;
 }
 
 .social .social-links-holder .social-link-holder{
